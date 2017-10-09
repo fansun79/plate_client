@@ -1,0 +1,18 @@
+#Plate客户端配置文件
+plate:
+  client:
+     #客户端Id
+     id: sun123
+     #MQ配置
+     mq:
+        #MQ服务器地址
+        host: 127.0.0.1
+        #发送消息端口
+        p_port: 6000
+        #监听消息端口
+        c_port: 6001
+     #OCR配置
+     ocr:
+       #临时目录
+       tempdir: /Users/sun/file_private/tempdir/
+
